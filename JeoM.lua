@@ -11348,63 +11348,68 @@ else
 local reply_markup = LuaTele.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
 data = {
 {
-{text = 'تعيين اسم البوت',type = 'text'},{text = '» تحديث ⌔', type = 'text'},
+{text = 'تفعيل التواصل ⌔',type = 'text'},{text = '» تعطيل التواصل ⌔', type = 'text'}
 },
 {
-{text = 'ضع كليشه المطور',type = 'text'},{text = '» المشتركين ⌔', type = 'text'},
+{text = 'تفعيل البوت الخدمي ⌔',type = 'text'},{text = 'تعطيل البوت الخدمي ⌔', type = 'text'}
 },
 {
-{text = '» المطورين ⌔',type = 'text'},{text = '» الاحصائيات ⌔', type = 'text'},
+{text = 'اذاعه للمجموعات ⌔',type = 'text'},{text = 'اذاعه خاص ⌔', type = 'text'}
 },
 {
-{text = '» اذاعه عام ⌔',type = 'text'},{text = '» اذاعه خاص ⌔', type = 'text'},
+{text = '» اذاعه عام ⌔',type = 'text'},{text = '» اذاعه خاص ⌔', type = 'text'}
 },
 {
-{text = 'اذاعه بالتثبيت ⌔',type = 'text'},
+{text = 'اذاعه بالتوجيه ⌔',type = 'text'},{text = 'اذاعه بالتوجيه خاص ⌔',type = 'text'}
 },
 {
-{text = '» المجموعات ⌔',type = 'text'},{text = 'تحديث السورس',type = 'text'},{text = 'ِ» حظر مجموعة ⌔', type = 'text'},
+{text = 'اذاعه بالتثبيت ⌔',type = 'text'}
 },
 {
-{text = 'تعطيل البوت الخدمي',type = 'text'},{text = 'تفعيل البوت الخدمي',type = 'text'}
+{text = 'المطورين الثانويين ⌔',type = 'text'},{text = 'المطورين ⌔',type = 'text'},{text = 'قائمه العام ⌔',type = 'text'}
 },
 {
-{text = 'تعطيل الاشتراك الاجباري',type = 'text'},{text = 'تفعيل الاشتراك الاجباري',type = 'text'},
+{text = 'مسح المطورين الثانويين ⌔',type = 'text'},{text = 'مسح المطورين ⌔',type = 'text'},{text = 'مسح قائمه العام ⌔',type = 'text'}
 },
 {
-{text = 'حذف قناة الاشتراك',type = 'text'},{text = 'تعيين قناة الاشتراك',type = 'text'},
+{text = 'تغيير اسم البوت ⌔',type = 'text'},{text = 'حذف اسم البوت ⌔',type = 'text'}
 },
 {
-{text = 'قناة الاشتراك',type = 'text'}
+{text = 'الاشتراك الاجباري ⌔',type = 'text'},{text = 'تغيير الاشتراك الاجباري ⌔',type = 'text'}
 },
 {
-{text = '» حذف رد التواصل ⌔',type = 'text'},{text = '» تعيين رد التواصل ⌔',type = 'text'},
+{text = 'تفعيل الاشتراك الاجباري ⌔',type = 'text'},{text = 'تعطيل الاشتراك الاجباري ⌔',type = 'text'}
 },
 {
-{text = '» جلب رد التواصل ⌔',type = 'text'}
+{text = 'الاحصائيات ⌔',type = 'text'},{text = 'تغيير المطور الاساسي ⌔',type = 'text'}
 },
 {
-{text = '» تعطيل التواصل ⌔',type = 'text'},{text = '» تفعيل التواصل ⌔', type = 'text'},
+{text = 'تعطيل المغادره',type = 'text'},{text = 'تفعيل المغادره', type = 'text'}
 },
 {
-{text = '» حذف رد عام ⌔',type = 'text'},{text = '» اضف رد عام ⌔', type = 'text'},
+{text = 'تغغير كليشه المطور ⌔',type = 'text'},{text = 'حذف كليشه المطور ⌔', type = 'text'}
 },
 {
-{text = '» الردود العام ⌔',type = 'text'}
+{text = 'تغيير كليشه ستارت ⌔',type = 'text'},{text = 'حذف كليشه ستارت ⌔', type = 'text'}
 },
 {
-{text = '» حذف رد الخاص ⌔',type = 'text'},{text = '» تعيين رد الخاص ⌔', type = 'text'},
+{text = 'تنظيف المجموعات ⌔',type = 'text'},{text = 'تنظيف المشتركين ⌔', type = 'text'}
 },
 {
-{text = '» تعطيل رد الخاص ⌔',type = 'text'},{text = '» تفعيل رد الخاص ⌔', type = 'text'},
+{text = 'جلب النسخه الاحتياطيه ⌔',type = 'text'},{text = 'جلب نسخه الردود', type = 'text'}
 },
 {
-{text = 'تحديث الملفات ⌔',type = 'text'},{text = 'تحديث السورس ⌔', type = 'text'},
+{text = 'اضف رد عام ⌔',type = 'text'},{text = 'حذف رد عام ⌔', type = 'text'}
 },
 {
-{text = 'الغاء الامر ⌔',type = 'text'},
+{text = 'الردود العامه ⌔',type = 'text'},{text = 'مسح الردود العامه ⌔',type = 'text'}
 },
 }
+{text = 'تحديث الملفات ⌔',type = 'text'},{text = 'تحديث السورس ⌔',type = 'text'}
+},
+}
+{text = 'الغاء الامر ⌔',type = 'text'}
+},
 }
 return LuaTele.sendText(msg_chat_id,msg_id,'᥀︙ اهلا بك عزيزي المطور ', 'md', false, false, false, false, reply_markup)
 end
@@ -12451,7 +12456,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/RXOXX'}, 
+{text = '- قناة السورس', url = 't.me/YWU1U'}, 
 },
 }
 }
