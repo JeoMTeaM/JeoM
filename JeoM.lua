@@ -2046,7 +2046,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'JeoM TeaM ⁦', url='https://t.me/RXOXX'},
+{text = 'JeoM TeaM ⁦', url='https://t.me/YWU1U'},
 },
 }
 }
