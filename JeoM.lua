@@ -11348,7 +11348,7 @@ else
 local reply_markup = LuaTele.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
 data = {
 {
-{text = 'تفعيل التواصل',type = 'text'},{text = '» تعطيل التواصل ⌔', type = 'text'}
+{text = 'تعطيل التواصل ⌔',type = 'text'},{text = '» تعطيل التواصل ⌔', type = 'text'}
 },
 {
 {text = 'تفعيل البوت الخدمي ⌔',type = 'text'},{text = 'تعطيل البوت الخدمي ⌔', type = 'text'}
@@ -11357,13 +11357,7 @@ data = {
 {text = 'اذاعه للمجموعات ⌔',type = 'text'},{text = 'اذاعه خاص ⌔', type = 'text'}
 },
 {
-{text = '» اذاعه عام ⌔',type = 'text'},{text = '» اذاعه خاص ⌔', type = 'text'}
-},
-{
-{text = 'اذاعه بالتوجيه ⌔',type = 'text'},{text = 'اذاعه بالتوجيه خاص ⌔',type = 'text'}
-},
-{
-{text = 'اذاعه بالتثبيت ⌔',type = 'text'}
+{text = '» اذاعه بالتثبيت ⌔',type = 'text'},{text = '» اذاعه بالتوجيه ⌔', type = 'text'},{text = 'اذاعه بالتوجيه خاص ⌔',type = 'text'}
 },
 {
 {text = 'المطورين الثانويين ⌔',type = 'text'},{text = 'المطورين ⌔',type = 'text'},{text = 'قائمه العام ⌔',type = 'text'}
@@ -11381,7 +11375,7 @@ data = {
 {text = 'تفعيل الاشتراك الاجباري ⌔',type = 'text'},{text = 'تعطيل الاشتراك الاجباري ⌔',type = 'text'}
 },
 {
-{text = 'الاحصائيات ⌔',type = 'text'},{text = 'تغيير المطور الاساسي ⌔',type = 'text'}
+{text = 'الاحصائيات',type = 'text'}
 },
 {
 {text = 'تعطيل المغادره',type = 'text'},{text = 'تفعيل المغادره', type = 'text'}
@@ -11406,9 +11400,6 @@ data = {
 },
 }
 {text = 'تحديث الملفات ⌔',type = 'text'},{text = 'تحديث السورس ⌔',type = 'text'}
-},
-}
-{text = 'الغاء الامر ⌔',type = 'text'}
 },
 }
 return LuaTele.sendText(msg_chat_id,msg_id,'᥀︙ اهلا بك عزيزي المطور ', 'md', false, false, false, false, reply_markup)
@@ -11543,7 +11534,7 @@ return LuaTele.sendText(msg.chat_id,msg.id,'*\n᥀︙عليك الاشتراك �
 end
 LuaTele.sendText(msg_chat_id,msg_id,'*᥀︙عدد احصائيات البوت الكامله \n— — — — — — — — —\n᥀︙عدد المجموعات : '..(Redis:scard(TheJeoM..'JeoM:ChekBotAdd') or 0)..'\n᥀︙عدد المشتركين : '..(Redis:scard(TheJeoM..'JeoM:Num:User:Pv') or 0)..'*',"md",true)  
 end
-if text == 'تغغير كليشه المطور ⌔' then
+if text == 'تغير كليشه المطور ⌔' then
 if not msg.ControllerBot then 
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*᥀︙هاذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true)  
 end
