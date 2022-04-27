@@ -11348,7 +11348,7 @@ else
 local reply_markup = LuaTele.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
 data = {
 {
-{text = 'تفعيل التواصل ⌔',type = 'text'},{text = '» تعطيل التواصل ⌔', type = 'text'}
+{text = 'تفعيل التواصل',type = 'text'},{text = '» تعطيل التواصل ⌔', type = 'text'}
 },
 {
 {text = 'تفعيل البوت الخدمي ⌔',type = 'text'},{text = 'تعطيل البوت الخدمي ⌔', type = 'text'}
